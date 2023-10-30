@@ -84,7 +84,7 @@ class MyMathTest {
         assertEquals(0, MyMath.evenFigureCount(1), "1 tiene 0 dígitos pares");
         assertEquals(1, MyMath.evenFigureCount(2), "2 tiene 1 dígito par");
         assertEquals(0, MyMath.evenFigureCount(999), "999 tiene 0 dígitos pares");
-        assertEquals(2, MyMath.evenFigureCount(123), "123 tiene 1 dígitos par");
+        assertEquals(1, MyMath.evenFigureCount(123), "123 tiene 1 dígito par");
         assertEquals(1, MyMath.evenFigureCount(0), "0 tiene 1 dígito par");
         assertEquals(2, MyMath.evenFigureCount(-100), "-100 tiene 2 dígitos pares");
     }
